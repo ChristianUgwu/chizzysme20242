@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRISTIAN FORM</title>
+</head>
+<body>
+<link rel="stylesheet" href="resource/styles/index form.css">
+<h1>THE HILLS REGISTRATION FORM</h1>
+<h2>Personal information</h2>
+<nav>
+<div 
+    class="box" border: 3px solid gold;"> <br>
+    
+    <form action="/action_page.php" autocomplete="on">
+
+            <lebel for="fname">First Name:</lebel><br>
+            <input type="text" id="fname" Name="fname" value="Doe" required>
+            <br><br>
+            <Label for="mname">Middle Name:</label><br>
+            <input type="text" id="mname" Name="Middle name"required>
+            <br><br>
+            <Label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" Name="last name"required> 
+        <br>
+        <br>
+            <Label for="Phone">Phone Number:</label><br>
+            <input type="tel" id="Phone" Name="Phone"required pattern="[+234] {0-9} -[0-9]">
+        <br><br>
+            <Label for="Gender">Sex:</label><br>
+            <select>
+                <option>male</option>
+                <option>female</option>
+                <option>others</option> 
+            </select id="Gender" name="SEX">
+            <br><br>
+            <Label for="Specify"> Others specify: </label><br>
+                <input type="text" id="name" name="other" required>
+        
+        <blockquote> </blockquote>
+            <Label for="email">Email:</label><br>
+            <input type="text" id="email" Name="email"required> 
+        <br><br>
+            <Label for="password">Password:</label><br>
+            <input type="password" placeholder="password" Name="password"required></li>
+        <br>
+        <br>
+            <button type="button"onclick="alert('Submitted! &#128512')"><input type="submit" style="background-color:aqua"/></button>
+           <button><input type="reset" style="background-color:aqua"/></button> 
+     
+
+    </form> <br>
+    </div>
+
+</nav>
+
+
+    
+
+</body>
+</html>
